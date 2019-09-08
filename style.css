@@ -1,0 +1,416 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#left-body {
+  background-color: #0083FF;
+  float: left;
+  height: 725.5px;
+}
+
+#left-body-index {
+  background-color: #0083FF;
+  float: left;
+  height: 675.5px;
+}
+
+#left-body h3 {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 50px 20px auto 20px;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+#left-body-index h3 {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 50px 20px auto 20px;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+#left-body img {
+  height: 90px;
+  width: 90px;
+  margin: 50px auto auto 110px;
+}
+
+#left-body-index img {
+  height: 90px;
+  width: 90px;
+  margin: 50px auto auto 110px;
+}
+
+#left-body img:hover {
+  filter: opacity(90%);
+}
+
+#left-body-index img:hover {
+  filter: opacity(90%);
+}
+
+#left-nav {
+  display: block;
+  float: left;
+}
+
+#left-nav li {
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 20px;
+  display: block;
+  letter-spacing: 0.02em;
+  margin-top: 30px;
+
+}
+
+#left-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#left-nav a:hover {
+  color: black;
+  transition: 0.2s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mbrl img {
+  height: 90px;
+  width: 90px;
+  float:right;
+  margin-right: 200px;
+  margin-top: -45px;
+}
+
+#header {
+  padding-top: 100px;
+  margin-left: 300px;
+}
+
+.form {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  padding-left: 400px;
+  margin-top: -330px;
+}
+
+.form h3 {
+  margin-top: 100px;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.form button {
+  margin-top: 50px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+#body-text {
+  margin-top: 150px;
+  margin-left: -160px;
+  color: #2f2f2f;
+  letter-spacing: 0.05em;
+}
+
+#watchpic img {
+  margin-top: -93px;
+  height: 110px;
+  width: 110px;
+  margin-left: 200px;
+}
+
+#pcpic img {
+  margin-top: -120px;
+  height: 140px;
+  width: 234px;
+  margin-left: 100px;
+  margin-bottom: -3px;
+}
+
+#Tvpic img {
+  height: 120px;
+  margin-top: -120px;
+  margin-left: 100px;
+  margin-bottom: 17px;
+}
+
+#button1 {
+  border: 1px solid #595F6E;
+  padding: 20px 110px;
+  font-size: 15px;
+  margin-left: -35px;
+  background-color: #999b9b; 
+  font-weight: bold;
+}
+
+#button1:hover {
+  transition: 0.3s;
+  border:1px solid black;
+  background-color: #5d6161;
+}
+
+#button2 {
+  padding: 20px 90px;
+  font-size: 15px;
+  border: 1px solid #595F6E;
+  background-color: #999b9b; 
+  font-weight: bold;
+}
+
+#button2:hover {
+  border: 1px solid black;
+  transition: 0.3s;
+  background-color: #5d6161;
+}
+
+
+#responding-part {
+  background-color: rgb(24, 24, 34);
+  height: 280px;
+}
+
+#responding-part h2 {
+  padding-top: 70px;
+  padding-left: 50px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: 30px;
+  margin-left: 90px;
+}
+
+#responding-part p {
+  font-size: 16px;
+  margin-left: -800px;
+  margin-top: -5px;
+  color: white;
+  font-weight: lighter;
+  color: #6d8688;
+}
+
+#warning p {
+  text-align: center;
+  margin-right: 390px;
+}
+
+#device {
+  margin-top: -70px;
+}
+
+#responding-part h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 70px;
+  margin-top: -50px;
+  float: right;
+  font-weight: 100;
+  color: #f4f8ff;
+}
+
+#responding-part h1 {
+  font-size: 30px;
+  color: white;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-left: -50px;
+}
+
+#responding-part a {
+  text-decoration: none;
+  color: #1abc9c;
+  font-size: 20px;
+  margin-left: 750px;
+  text-transform: none;
+}
+
+#responding-part a:hover {
+  color: #F6A623;
+}
+
+.column {
+  display: inline-block;
+  margin:30px;
+  margin-left: -200px;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#first-paragraph {
+  margin-top: 100px;
+  margin-left: 140px;
+}
+
+#second-paragraph {
+  margin-top: 190px;
+  margin-left: 140px;
+}
+
+#button {
+  border: 1px solid #0084ff;
+  background-color: #0059ff;
+  font-family: "montserrat";
+  padding: 15px 70px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 260px;
+}
+
+#button:hover {
+  transition: 0.2s;
+  background-color: #0d3eaa;
+}
+
+#index-images img {
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  margin-left: 80px;
+}
+
+#index-smarttv-img img {
+  height: 100px;
+  width: 384px;
+  padding: 50px;
+  margin-left: 80px;
+}
+
+#header h2, h3 {
+  margin-left: 80px;
+  padding:20px;
+}
+
+#header h2 {
+  font-size: 30px;
+  margin-top: -20px;
+  text-transform: uppercase;
+}
+
+#header h3 {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+#header h4 {
+  font-size: 30px;
+  margin-left: 120px;
+}
+
+#header h5 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-left: 80px;
+}
+
+/* Just the animation for the inputs */
+
+.name-section {
+  width: 50%;
+  height: 200px;
+  margin-top: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.name-section1 {
+  width: 50%;
+  height: 100px;
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.name-section input {
+  width: 100%;
+  height: 100%;
+  color: #595F6E;
+  padding-top: 85px;
+  border: none;
+  outline: none;
+}
+
+.name-section1 input {
+  width: 100%;
+  height: 100%;
+  color: #595F6E;
+  padding-top: 33px;
+  border: none;
+  outline: none;
+}
+
+.name-section label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.name-section1 label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.name-section1 label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.name-section label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name  .content-name, .form input:valid + .label-name .content-name{
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+
+.form input:focus + .label-name::after, .form input:valid + .label-name::after {
+  transform: translateX(0%);
+}

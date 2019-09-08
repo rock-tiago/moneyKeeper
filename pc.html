@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title> Watch your money </title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="left-body">
+      <a href="index.html" id="main-button"> <img src="money.png"> </a>
+      <h3> Which device are you <br> considering buying?</h3>
+      <ul id="left-nav">
+        <li> <a href="pc.html"> Computer </a> </li> <br>
+        <li> <a href="smartwatch.html"> SmartWatch </a> </li> <br>
+        <li> <a href="smartTV.html"> Smart TV </a></li>  
+      </ul>
+    </div>
+    <div id="header">
+    <div id="first-paragraph">
+      <p>
+        Amount of money in MB:
+      </p>
+      </div>
+      <div id="second-paragraph">
+      <p>
+        Amount of physical money:
+      </p>
+    </div>
+    <div class = "form">
+      <div class="name-section1">
+      <input id="answermb" type="number" autocomplete="off" required/>
+      <label for="name" class="label-name">
+        <span class="content-name"> Amount </span>
+      </label>
+    </div>
+    <span class="mbrl"> <img src="mb.png"> </span>
+      <div class="name-section">
+        <input id="answerrl" type="number" autocomplete="off" required/>
+        <label for="name" class="label-name">
+          <span class="content-name"> Amount </span>
+        </label>
+      </div>
+      <span class="mbrl"> <img src="euro.png"> </span>
+      <h3 id="body-text"> Alienware Aurora r7 - </h3>
+      <span id="pcpic"> <img src="alienware.png"> </span>
+      </div>
+    </div>
+  <div id="responding-part">
+      <h2> Should I buy the Computer?</h2>
+      <span id="warning"><p> Press <em> check </em> after <br> inserting your money above </p> </span>
+      <button id="button" onclick="checkPc()"> Check </button>
+      <h3> <span id="answer">  </h3>
+    </div>
+    <script src="java.js"> </script>
+  </body>
+</html>
